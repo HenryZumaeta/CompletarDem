@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.22.16-Białowieża" saveUserFull="HeNrY ZuMaEtA" projectname="" saveUser="NITRO" saveDateTime="2024-06-26T00:43:50">
+<qgis version="3.22.16-Białowieża" saveUserFull="HeNrY ZuMaEtA" projectname="" saveUser="NITRO" saveDateTime="2024-06-26T00:44:47">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -28,11 +28,6 @@
       </customproperties>
     </layer-tree-layer>
     <layer-tree-layer providerKey="gdal" checked="Qt::Checked" source="../RASTER/DEM_DRONE_IN.tif" patch_size="-1,-1" expanded="1" legend_split_behavior="0" legend_exp="" id="DEM_DRONE_IN_48b82639_f899_44cf_bb69_9cd05b08c17f" name="DEM_DRONE_IN">
-      <customproperties>
-        <Option/>
-      </customproperties>
-    </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" checked="Qt::Checked" source="../SHP/mask_cuenca_bf.shp" patch_size="-1,-1" expanded="1" legend_split_behavior="0" legend_exp="" id="mask_cuenca_bf_739d499d_3bbb_42b2_80f8_eb92c9a13aed" name="mask_cuenca_bf">
       <customproperties>
         <Option/>
       </customproperties>
@@ -72,11 +67,6 @@
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" checked="Qt::Unchecked" source="../../../../../../ZEngi/Hydro/Projects/Talara/GIS/OUT/SHP/AREA_ESTUDIO.shp" patch_size="-1,-1" expanded="1" legend_split_behavior="0" legend_exp="" id="AREA_ESTUDIO_988bb652_c897_45a6_aa19_12188694d63c" name="AREA_ESTUDIO">
-      <customproperties>
-        <Option/>
-      </customproperties>
-    </layer-tree-layer>
     <layer-tree-layer providerKey="gdal" checked="Qt::Unchecked" source="../RASTER/DEM_LANDVIEWER.tif" patch_size="-1,-1" expanded="0" legend_split_behavior="0" legend_exp="" id="DEM_LANDVIEWER_1e0c1838_6357_4ae7_87e5_a4d7fa48348c" name="DEM_LANDVIEWER">
       <customproperties>
         <Option/>
@@ -84,14 +74,12 @@
     </layer-tree-layer>
     <custom-order enabled="0">
       <item>DEM_DRONE_a2374cf8_d052_4a61_88c6_829bf2e8d7c1</item>
-      <item>AREA_ESTUDIO_988bb652_c897_45a6_aa19_12188694d63c</item>
       <item>Cuencas_d1b27b42_0792_43e6_accf_dd0e4743bf17</item>
       <item>CUENCAS_1M_GEO_e306a932_48a7_49e8_9a24_7dfe32456ac2</item>
       <item>ZONA_ESTUDIO_23e94402_6e52_4a6b_ac3a_ae7e65a6c303</item>
       <item>cuadro_14ab0319_8ac2_431b_b74a_915fcc6904b6</item>
       <item>DEM_LANDVIEWER_1e0c1838_6357_4ae7_87e5_a4d7fa48348c</item>
       <item>cuenca_drone_8b251116_fe38_4871_a031_86bdaefc9c98</item>
-      <item>mask_cuenca_bf_739d499d_3bbb_42b2_80f8_eb92c9a13aed</item>
       <item>DEM_DRONE_IN_48b82639_f899_44cf_bb69_9cd05b08c17f</item>
       <item>mask_pol_cuenca_bf_0149083c_d9cc_4719_90bb_006bda30a19b</item>
       <item>DEM_LANDVIEWER_IN_7ed15fd4_edce_4b48_9b19_3bf2648a53e2</item>
@@ -100,11 +88,9 @@
   <snapping-settings minScale="0" type="1" self-snapping="0" enabled="0" mode="2" maxScale="0" tolerance="12" intersection-snapping="0" unit="1" scaleDependencyMode="0">
     <individual-layer-settings>
       <layer-setting minScale="0" type="1" enabled="0" maxScale="0" tolerance="12" units="1" id="ZONA_ESTUDIO_23e94402_6e52_4a6b_ac3a_ae7e65a6c303"/>
-      <layer-setting minScale="0" type="1" enabled="0" maxScale="0" tolerance="12" units="1" id="AREA_ESTUDIO_988bb652_c897_45a6_aa19_12188694d63c"/>
       <layer-setting minScale="0" type="1" enabled="0" maxScale="0" tolerance="12" units="1" id="Cuencas_d1b27b42_0792_43e6_accf_dd0e4743bf17"/>
       <layer-setting minScale="0" type="1" enabled="0" maxScale="0" tolerance="12" units="1" id="CUENCAS_1M_GEO_e306a932_48a7_49e8_9a24_7dfe32456ac2"/>
       <layer-setting minScale="0" type="1" enabled="0" maxScale="0" tolerance="12" units="1" id="mask_pol_cuenca_bf_0149083c_d9cc_4719_90bb_006bda30a19b"/>
-      <layer-setting minScale="0" type="1" enabled="0" maxScale="0" tolerance="12" units="1" id="mask_cuenca_bf_739d499d_3bbb_42b2_80f8_eb92c9a13aed"/>
       <layer-setting minScale="0" type="1" enabled="0" maxScale="0" tolerance="12" units="1" id="cuadro_14ab0319_8ac2_431b_b74a_915fcc6904b6"/>
       <layer-setting minScale="0" type="1" enabled="0" maxScale="0" tolerance="12" units="1" id="cuenca_drone_8b251116_fe38_4871_a031_86bdaefc9c98"/>
     </individual-layer-settings>
@@ -150,7 +136,7 @@
         <Option type="QString" name="type" value="collection"/>
       </Option>
       <Option type="Map" name="plot_layout">
-        <Option type="QString" name="additional_info_expression" value="&quot;Id&quot;"/>
+        <Option type="QString" name="additional_info_expression" value="Id"/>
         <Option type="QString" name="bar_mode" value="group"/>
         <Option type="double" name="bargaps" value="0"/>
         <Option type="bool" name="bins_check" value="false"/>
@@ -245,7 +231,7 @@
         <Option type="QString" name="z_name" value="Id"/>
       </Option>
       <Option type="QString" name="plot_type" value="scatter"/>
-      <Option type="QString" name="source_layer_id" value="AREA_ESTUDIO_988bb652_c897_45a6_aa19_12188694d63c"/>
+      <Option type="QString" name="source_layer_id" value="cuadro_14ab0319_8ac2_431b_b74a_915fcc6904b6"/>
     </Option>
   </DataPlotly>
   <projectModels/>
@@ -258,11 +244,6 @@
     <legendlayer drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Checked" name="DEM_DRONE_IN">
       <filegroup hidden="false" open="true">
         <legendlayerfile isInOverview="0" layerid="DEM_DRONE_IN_48b82639_f899_44cf_bb69_9cd05b08c17f" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Checked" name="mask_cuenca_bf">
-      <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" layerid="mask_cuenca_bf_739d499d_3bbb_42b2_80f8_eb92c9a13aed" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Checked" name="mask_pol_cuenca_bf">
@@ -298,11 +279,6 @@
     <legendlayer drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Unchecked" name="ZONA_ESTUDIO">
       <filegroup hidden="false" open="true">
         <legendlayerfile isInOverview="0" layerid="ZONA_ESTUDIO_23e94402_6e52_4a6b_ac3a_ae7e65a6c303" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Unchecked" name="AREA_ESTUDIO">
-      <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" layerid="AREA_ESTUDIO_988bb652_c897_45a6_aa19_12188694d63c" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" showFeatureCount="0" open="false" checked="Qt::Unchecked" name="DEM_LANDVIEWER">
@@ -389,195 +365,6 @@
     <paintEffect/>
   </main-annotation-layer>
   <projectlayers>
-    <maplayer minScale="100000000" simplifyDrawingTol="1" wkbType="MultiPolygon" geometry="Polygon" simplifyMaxScale="1" legendPlaceholderImage="" maxScale="0" type="vector" simplifyDrawingHints="1" autoRefreshEnabled="0" labelsEnabled="0" autoRefreshTime="0" symbologyReferenceScale="-1" refreshOnNotifyEnabled="0" simplifyLocal="1" refreshOnNotifyMessage="" simplifyAlgorithm="0" readOnly="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories">
-      <extent>
-        <xmin>472340.19538403023034334</xmin>
-        <ymin>9527880.29748035967350006</ymin>
-        <xmax>475290.30545091722160578</xmax>
-        <ymax>9530407.07336724363267422</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-81.24925858284785818</xmin>
-        <ymin>-4.27130332778984911</ymin>
-        <xmax>-81.22266699601833295</xmax>
-        <ymax>-4.24843609160002345</ymax>
-      </wgs84extent>
-      <id>AREA_ESTUDIO_988bb652_c897_45a6_aa19_12188694d63c</id>
-      <datasource>../../../../../../ZEngi/Hydro/Projects/Talara/GIS/OUT/SHP/AREA_ESTUDIO.shp</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>AREA_ESTUDIO</layername>
-      <srs>
-        <spatialrefsys>
-          <wkt>PROJCRS["WGS 84 / UTM zone 17S",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 17S",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-81,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Between 84°W and 78°W, southern hemisphere between 80°S and equator, onshore and offshore. Ecuador. Peru."],BBOX[-80,-84,0,-78]],ID["EPSG",32717]]</wkt>
-          <proj4>+proj=utm +zone=17 +south +datum=WGS84 +units=m +no_defs</proj4>
-          <srsid>3167</srsid>
-          <srid>32717</srid>
-          <authid>EPSG:32717</authid>
-          <description>WGS 84 / UTM zone 17S</description>
-          <projectionacronym>utm</projectionacronym>
-          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type>dataset</type>
-        <title></title>
-        <abstract></abstract>
-        <links/>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <wkt></wkt>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-      </resourceMetadata>
-      <provider encoding="UTF-8">ogr</provider>
-      <vectorjoins/>
-      <layerDependencies/>
-      <dataDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="predeterminado">
-        <map-layer-style name="predeterminado"/>
-      </map-layer-style-manager>
-      <auxiliaryLayer/>
-      <metadataUrls/>
-      <flags>
-        <Identifiable>1</Identifiable>
-        <Removable>1</Removable>
-        <Searchable>1</Searchable>
-        <Private>0</Private>
-      </flags>
-      <temporal limitMode="0" accumulate="0" enabled="0" startExpression="" mode="0" fixedDuration="0" durationField="" durationUnit="min" startField="" endField="" endExpression="">
-        <fixedRange>
-          <start></start>
-          <end></end>
-        </fixedRange>
-      </temporal>
-      <renderer-v2 referencescale="-1" type="singleSymbol" enableorderby="0" forceraster="0" symbollevels="0">
-        <symbols>
-          <symbol type="fill" force_rhr="0" clip_to_extent="1" alpha="1" name="0">
-            <data_defined_properties>
-              <Option type="Map">
-                <Option type="QString" name="name" value=""/>
-                <Option name="properties"/>
-                <Option type="QString" name="type" value="collection"/>
-              </Option>
-            </data_defined_properties>
-            <layer enabled="1" locked="0" class="SimpleFill" pass="0">
-              <Option type="Map">
-                <Option type="QString" name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-                <Option type="QString" name="color" value="232,113,141,255"/>
-                <Option type="QString" name="joinstyle" value="bevel"/>
-                <Option type="QString" name="offset" value="0,0"/>
-                <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-                <Option type="QString" name="offset_unit" value="MM"/>
-                <Option type="QString" name="outline_color" value="35,35,35,255"/>
-                <Option type="QString" name="outline_style" value="solid"/>
-                <Option type="QString" name="outline_width" value="0.26"/>
-                <Option type="QString" name="outline_width_unit" value="MM"/>
-                <Option type="QString" name="style" value="solid"/>
-              </Option>
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="232,113,141,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="35,35,35,255" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.26" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option type="QString" name="name" value=""/>
-                  <Option name="properties"/>
-                  <Option type="QString" name="type" value="collection"/>
-                </Option>
-              </data_defined_properties>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale/>
-      </renderer-v2>
-      <customproperties>
-        <Option/>
-      </customproperties>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerOpacity>1</layerOpacity>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
-        <activeChecks type="StringList">
-          <Option type="QString" value=""/>
-        </activeChecks>
-        <checkConfiguration/>
-      </geometryOptions>
-      <legend type="default-vector" showLabelLegend="0"/>
-      <referencedLayers/>
-      <fieldConfiguration>
-        <field configurationFlags="None" name="Id">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-      </fieldConfiguration>
-      <aliases>
-        <alias field="Id" index="0" name=""/>
-      </aliases>
-      <defaults>
-        <default field="Id" applyOnUpdate="0" expression=""/>
-      </defaults>
-      <constraints>
-        <constraint field="Id" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint field="Id" desc="" exp=""/>
-      </constraintExpressions>
-      <expressionfields/>
-      <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
-      </attributeactions>
-      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
-        <columns/>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <storedexpressions/>
-      <editform tolerant="1"></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
-      <reuseLastValue/>
-      <dataDefinedFieldProperties/>
-      <widgets/>
-      <previewExpression></previewExpression>
-      <mapTip></mapTip>
-    </maplayer>
     <maplayer minScale="100000000" simplifyDrawingTol="1" wkbType="MultiPolygon" geometry="Polygon" simplifyMaxScale="1" legendPlaceholderImage="" maxScale="0" type="vector" simplifyDrawingHints="1" autoRefreshEnabled="0" labelsEnabled="0" autoRefreshTime="0" symbologyReferenceScale="-1" refreshOnNotifyEnabled="0" simplifyLocal="1" refreshOnNotifyMessage="" simplifyAlgorithm="0" readOnly="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories">
       <extent>
         <xmin>-81.23663087643565461</xmin>
@@ -2427,282 +2214,6 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>"DN"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minScale="100000000" simplifyDrawingTol="1" wkbType="MultiLineString" geometry="Line" simplifyMaxScale="1" legendPlaceholderImage="" maxScale="0" type="vector" simplifyDrawingHints="1" autoRefreshEnabled="0" labelsEnabled="0" autoRefreshTime="0" symbologyReferenceScale="-1" refreshOnNotifyEnabled="0" simplifyLocal="1" refreshOnNotifyMessage="" simplifyAlgorithm="0" readOnly="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories">
-      <extent>
-        <xmin>473745.91081871400820091</xmin>
-        <ymin>9528497.59242386929690838</ymin>
-        <xmax>475268.27451871399534866</xmax>
-        <ymax>9530534.01132386922836304</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-81.23658922881715228</xmin>
-        <ymin>-4.26571876228764069</ymin>
-        <xmax>-81.22286519324134701</xmax>
-        <ymax>-4.24729171147789408</ymax>
-      </wgs84extent>
-      <id>mask_cuenca_bf_739d499d_3bbb_42b2_80f8_eb92c9a13aed</id>
-      <datasource>../SHP/mask_cuenca_bf.shp</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>mask_cuenca_bf</layername>
-      <srs>
-        <spatialrefsys>
-          <wkt>PROJCRS["WGS 84 / UTM zone 17S",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 17S",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-81,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Between 84°W and 78°W, southern hemisphere between 80°S and equator, onshore and offshore. Ecuador. Peru."],BBOX[-80,-84,0,-78]],ID["EPSG",32717]]</wkt>
-          <proj4>+proj=utm +zone=17 +south +datum=WGS84 +units=m +no_defs</proj4>
-          <srsid>3167</srsid>
-          <srid>32717</srid>
-          <authid>EPSG:32717</authid>
-          <description>WGS 84 / UTM zone 17S</description>
-          <projectionacronym>utm</projectionacronym>
-          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type></type>
-        <title></title>
-        <abstract></abstract>
-        <links/>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <wkt></wkt>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-      </resourceMetadata>
-      <provider encoding="UTF-8">ogr</provider>
-      <vectorjoins/>
-      <layerDependencies/>
-      <dataDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="predeterminado">
-        <map-layer-style name="predeterminado"/>
-      </map-layer-style-manager>
-      <auxiliaryLayer/>
-      <metadataUrls/>
-      <flags>
-        <Identifiable>1</Identifiable>
-        <Removable>1</Removable>
-        <Searchable>1</Searchable>
-        <Private>0</Private>
-      </flags>
-      <temporal limitMode="0" accumulate="0" enabled="0" startExpression="" mode="0" fixedDuration="0" durationField="" durationUnit="min" startField="" endField="" endExpression="">
-        <fixedRange>
-          <start></start>
-          <end></end>
-        </fixedRange>
-      </temporal>
-      <renderer-v2 referencescale="-1" type="singleSymbol" enableorderby="0" forceraster="0" symbollevels="0">
-        <symbols>
-          <symbol type="line" force_rhr="0" clip_to_extent="1" alpha="1" name="0">
-            <data_defined_properties>
-              <Option type="Map">
-                <Option type="QString" name="name" value=""/>
-                <Option name="properties"/>
-                <Option type="QString" name="type" value="collection"/>
-              </Option>
-            </data_defined_properties>
-            <layer enabled="1" locked="0" class="SimpleLine" pass="0">
-              <Option type="Map">
-                <Option type="QString" name="align_dash_pattern" value="0"/>
-                <Option type="QString" name="capstyle" value="square"/>
-                <Option type="QString" name="customdash" value="5;2"/>
-                <Option type="QString" name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-                <Option type="QString" name="customdash_unit" value="MM"/>
-                <Option type="QString" name="dash_pattern_offset" value="0"/>
-                <Option type="QString" name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-                <Option type="QString" name="dash_pattern_offset_unit" value="MM"/>
-                <Option type="QString" name="draw_inside_polygon" value="0"/>
-                <Option type="QString" name="joinstyle" value="bevel"/>
-                <Option type="QString" name="line_color" value="231,113,72,255"/>
-                <Option type="QString" name="line_style" value="solid"/>
-                <Option type="QString" name="line_width" value="0.26"/>
-                <Option type="QString" name="line_width_unit" value="MM"/>
-                <Option type="QString" name="offset" value="0"/>
-                <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-                <Option type="QString" name="offset_unit" value="MM"/>
-                <Option type="QString" name="ring_filter" value="0"/>
-                <Option type="QString" name="trim_distance_end" value="0"/>
-                <Option type="QString" name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-                <Option type="QString" name="trim_distance_end_unit" value="MM"/>
-                <Option type="QString" name="trim_distance_start" value="0"/>
-                <Option type="QString" name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-                <Option type="QString" name="trim_distance_start_unit" value="MM"/>
-                <Option type="QString" name="tweak_dash_pattern_on_corners" value="0"/>
-                <Option type="QString" name="use_custom_dash" value="0"/>
-                <Option type="QString" name="width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-              </Option>
-              <prop v="0" k="align_dash_pattern"/>
-              <prop v="square" k="capstyle"/>
-              <prop v="5;2" k="customdash"/>
-              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
-              <prop v="MM" k="customdash_unit"/>
-              <prop v="0" k="dash_pattern_offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
-              <prop v="MM" k="dash_pattern_offset_unit"/>
-              <prop v="0" k="draw_inside_polygon"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="231,113,72,255" k="line_color"/>
-              <prop v="solid" k="line_style"/>
-              <prop v="0.26" k="line_width"/>
-              <prop v="MM" k="line_width_unit"/>
-              <prop v="0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="0" k="ring_filter"/>
-              <prop v="0" k="trim_distance_end"/>
-              <prop v="3x:0,0,0,0,0,0" k="trim_distance_end_map_unit_scale"/>
-              <prop v="MM" k="trim_distance_end_unit"/>
-              <prop v="0" k="trim_distance_start"/>
-              <prop v="3x:0,0,0,0,0,0" k="trim_distance_start_map_unit_scale"/>
-              <prop v="MM" k="trim_distance_start_unit"/>
-              <prop v="0" k="tweak_dash_pattern_on_corners"/>
-              <prop v="0" k="use_custom_dash"/>
-              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option type="QString" name="name" value=""/>
-                  <Option name="properties"/>
-                  <Option type="QString" name="type" value="collection"/>
-                </Option>
-              </data_defined_properties>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale/>
-      </renderer-v2>
-      <customproperties>
-        <Option/>
-      </customproperties>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerOpacity>1</layerOpacity>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
-        <activeChecks type="StringList">
-          <Option type="QString" value=""/>
-        </activeChecks>
-        <checkConfiguration/>
-      </geometryOptions>
-      <legend type="default-vector" showLabelLegend="0"/>
-      <referencedLayers/>
-      <fieldConfiguration>
-        <field configurationFlags="None" name="Layer">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field configurationFlags="None" name="PaperSpace">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field configurationFlags="None" name="SubClasses">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field configurationFlags="None" name="Linetype">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field configurationFlags="None" name="EntityHand">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field configurationFlags="None" name="Text">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-      </fieldConfiguration>
-      <aliases>
-        <alias field="Layer" index="0" name=""/>
-        <alias field="PaperSpace" index="1" name=""/>
-        <alias field="SubClasses" index="2" name=""/>
-        <alias field="Linetype" index="3" name=""/>
-        <alias field="EntityHand" index="4" name=""/>
-        <alias field="Text" index="5" name=""/>
-      </aliases>
-      <defaults>
-        <default field="Layer" applyOnUpdate="0" expression=""/>
-        <default field="PaperSpace" applyOnUpdate="0" expression=""/>
-        <default field="SubClasses" applyOnUpdate="0" expression=""/>
-        <default field="Linetype" applyOnUpdate="0" expression=""/>
-        <default field="EntityHand" applyOnUpdate="0" expression=""/>
-        <default field="Text" applyOnUpdate="0" expression=""/>
-      </defaults>
-      <constraints>
-        <constraint field="Layer" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
-        <constraint field="PaperSpace" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
-        <constraint field="SubClasses" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
-        <constraint field="Linetype" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
-        <constraint field="EntityHand" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
-        <constraint field="Text" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint field="Layer" desc="" exp=""/>
-        <constraint field="PaperSpace" desc="" exp=""/>
-        <constraint field="SubClasses" desc="" exp=""/>
-        <constraint field="Linetype" desc="" exp=""/>
-        <constraint field="EntityHand" desc="" exp=""/>
-        <constraint field="Text" desc="" exp=""/>
-      </constraintExpressions>
-      <expressionfields/>
-      <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
-      </attributeactions>
-      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
-        <columns/>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <storedexpressions/>
-      <editform tolerant="1"></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
-      <reuseLastValue/>
-      <dataDefinedFieldProperties/>
-      <widgets/>
-      <previewExpression></previewExpression>
-      <mapTip></mapTip>
-    </maplayer>
     <maplayer minScale="100000000" simplifyDrawingTol="1" wkbType="MultiPolygon" geometry="Polygon" simplifyMaxScale="1" legendPlaceholderImage="" maxScale="0" type="vector" simplifyDrawingHints="1" autoRefreshEnabled="0" labelsEnabled="0" autoRefreshTime="0" symbologyReferenceScale="-1" refreshOnNotifyEnabled="0" simplifyLocal="1" refreshOnNotifyMessage="" simplifyAlgorithm="0" readOnly="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories">
       <extent>
         <xmin>473745.91081871400820091</xmin>
@@ -2895,14 +2406,12 @@ def my_form_open(dialog, layer, feature):
   </projectlayers>
   <layerorder>
     <layer id="DEM_DRONE_a2374cf8_d052_4a61_88c6_829bf2e8d7c1"/>
-    <layer id="AREA_ESTUDIO_988bb652_c897_45a6_aa19_12188694d63c"/>
     <layer id="Cuencas_d1b27b42_0792_43e6_accf_dd0e4743bf17"/>
     <layer id="CUENCAS_1M_GEO_e306a932_48a7_49e8_9a24_7dfe32456ac2"/>
     <layer id="ZONA_ESTUDIO_23e94402_6e52_4a6b_ac3a_ae7e65a6c303"/>
     <layer id="cuadro_14ab0319_8ac2_431b_b74a_915fcc6904b6"/>
     <layer id="DEM_LANDVIEWER_1e0c1838_6357_4ae7_87e5_a4d7fa48348c"/>
     <layer id="cuenca_drone_8b251116_fe38_4871_a031_86bdaefc9c98"/>
-    <layer id="mask_cuenca_bf_739d499d_3bbb_42b2_80f8_eb92c9a13aed"/>
     <layer id="DEM_DRONE_IN_48b82639_f899_44cf_bb69_9cd05b08c17f"/>
     <layer id="mask_pol_cuenca_bf_0149083c_d9cc_4719_90bb_006bda30a19b"/>
     <layer id="DEM_LANDVIEWER_IN_7ed15fd4_edce_4b48_9b19_3bf2648a53e2"/>
